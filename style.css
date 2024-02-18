@@ -1,0 +1,207 @@
+@media (min-width:681px) and (min-height:554px){
+body {
+    background-color: #F9F7C9;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    max-width: 100%;
+}
+
+.buttons:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 8%;
+}
+
+.buttons > li a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttons > li a:hover {
+    text-decoration: underline;
+    color: #AAD9BB;
+}
+
+.option-menu {
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+    min-height: 10vh;
+    font-size: 1.2rem;
+    align-items: center;
+    background-color: #80BCBD;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+}
+
+.shortcuts {
+    display: flex;
+    gap: 20px;
+    margin-left: 17%;
+    margin-right: 0%;
+}
+
+.option-menu .waving-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.about {
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 90%;
+    display: inline-block;
+    position: static;
+    margin: 10% 5% 0% 5%;
+}    
+
+.me {
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-left: 5%;
+    border-radius: 10%;
+    border: 10px solid #AAD9BB;
+}
+
+.my-exp {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 8% 5% 5% 5%;
+
+}
+
+.exp-img {
+    width: 300px;
+    height: 200px;
+    float: left;
+    clear: left;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    border: 10px solid #AAD9BB;
+}
+
+.exp-container {
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+
+.exp-header {
+    margin-top: -20px;
+}
+
+.hobbies {
+    margin: 8% 5% 0% 5%;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.pic-hobbies > img {
+    width: 300px;
+    height: 200px;
+    border: 10px #AAD9BB solid;
+    border-radius: 10%;
+}
+
+.pic-hobbies {
+    display: fixed;
+    float: right;
+    margin-left: 30px;
+}
+
+.hobbies-heading {
+    margin-top: 100px;
+}
+
+.projects {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 8% 5% 0% 5%;
+}
+
+.li-projects {
+    padding: 0%;
+    text-align: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.li-projects > li {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: #80BCBD;
+    border: 5px solid black;
+    border-radius: 5%;
+}
+
+.projects a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.li-projects a:hover {
+    background-color: #D5F0C1;
+    transition-duration: 1s;
+}
+
+.contacts {
+    font-size: 1.5rem;
+    margin: 5% 15% 5% 15%;
+    background-color:#AAD9BB;
+    border: 10px solid black;
+}
+
+.contacts div ul > li {
+    list-style: none;
+}
+
+.contacts a {
+ text-decoration: none;
+}
+
+
+.contacts > div {
+    margin-left: 10%;
+}
+
+.contact-gif {
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.2rem;
+}
+
+.footer-1 {
+    float: left;
+}
+
+.footer-2 {
+    float: right;
+}
+
+}
